@@ -48,22 +48,22 @@ Try to use a Functional component if the component doesn't have state, you'll ne
 
 ### Tasks
 
-- [ ] 1. Refactor the “about” and “footer” sections by creating a functional component for each.
+- [x] 1. Refactor the “about” and “footer” sections by creating a functional component for each.
       Make sure everything works.
 
-- [ ] 2. Refactor the navbar by creating a Functional Component.
+- [x] 2. Refactor the navbar by creating a Functional Component.
       Pass the dependencies (`this.toggleMenu` in this case) via props.
       Make sure everything works by clicking on the "Training" button at the top right of the screen.
 
-- [ ] 3. Refactor the books section by creating a functional component and pass the dependencies via props.
+- [x] 3. Refactor the books section by creating a functional component and pass the dependencies via props.
       Make sure everything works.
 
-- [ ] 4. Is there any state in app that should be in the Books component?
+- [x] 4. Is there any state in app that should be in the Books component?
       Refactor `<Books>` if appropriate. Should `<Books>` be a Functional Component or a Class Component now?
 
-- [ ] 5. Break `<Books>` down into `<BookList>` and `<BookFilter>`
+- [x] 5. Break `<Books>` down into `<BookList>` and `<BookFilter>`
 
-- [ ] 6. What do you think it would make sense to componentize next?
+- [x] 6. What do you think it would make sense to componentize next?
       Are there any parts on that view that you can reuse? Try to explain to a mentor what you want to refactor before you code 😁
 
 ## Articles and links
